@@ -1,0 +1,238 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	display: block;
+	width: 100%;
+	font-family: serif;
+	
+}
+
+.websitename {
+	color: white;
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 25px;
+}
+
+.randomness {
+	width: 300px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+
+	padding: 5px;
+	border: 1px solid black ;
+}
+
+body {
+	background-image: url(background5.jpg);
+}
+
+/*design of buttons*/
+ .back-ground{
+        width: 18rem;
+        height: 6rem;
+        background: white;
+        border-radius: 23px;
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.back-ground .change-back{
+	    width: 91px;
+	    height: 91px;
+	    background: wheat;
+	    overflow: hidden;
+	    cursor: pointer;
+	    border-radius: 23px;
+}
+.back-ground .change-back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header{
+	background-color: black;
+	background-position: center;
+	background-size:100px ;
+	padding: 0px 0px;
+	margin: 0px;
+}
+
+.intro{
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Courier New', monospace;
+	position: relative;
+	top: 30px;
+}
+
+/*allignment and styling of comments*/
+.comments {
+	padding: 10px;
+	padding-top: 40px;
+	font-family: Georgia, serif;
+	text-align: center;
+
+}
+
+.commenterspranav {
+	padding: 5px;
+	position: relative;
+	margin-left: 150px;
+}
+.comentpranav {
+	margin: 5px;
+	font-size: 19px;
+	color: gray;
+	position: relative;
+	margin-left: 180px;
+}
+
+.commentersvlad {
+	padding: 5px;
+	position: relative;
+	margin-right: 150px;
+	text-align: right;
+	bottom: 60px;
+}
+.comentvlad {
+	margin: 5px;
+	font-size: 19px;
+	color: gray;
+	position: relative;
+	margin-right: 180px;
+	text-align: right;
+	bottom: 60px;
+}
+
+.commentersxu {
+	padding: 5px;
+	position: relative;
+	margin-left: 150px;
+}
+.comentxu {
+	margin: 5px;
+	font-size: 19px;
+	color: gray;
+	position: relative;
+	margin-left: 180px;
+}
+
+.commentersjav {
+	padding: 5px;
+	position: relative;
+	margin-right: 150px;
+	text-align: right;
+	bottom: 60px;
+}
+.comentjav {
+	margin: 5px;
+	font-size: 19px;
+	color: gray;
+	position: relative;
+	margin-right: 180px;
+	text-align: right;
+	bottom: 60px;
+}
+
+/*alignment of video*/
+video {
+	height:900px;
+	width: 1200px;	
+	padding: 0px;
+	position: relative;
+	bottom: 40px;
+}
+
+div.center {
+	text-align: center;
+}
+
+.video_title {
+	margin-left: 160px;
+	font-family: 'Courier New', monospace;
+
+}
+
+.description {
+	margin-left: 160px;
+	padding-top: 10px;
+}
+
+div.design {
+	text-align: right;
+	padding-right: 150px;
+}
+
+/*alignment and designing of Meet the Team section*/
+.team {
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 40;
+}
+
+.mohid {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	bottom: 380px;
+	height: 400px;
+
+}
+
+.arsalan {
+	display: block;
+	margin-right: auto;
+	position: relative;
+	top: 50px;
+	left: 160px;
+	height: 400px;
+}
+
+.zion {
+	display: block;
+	margin-left: auto;
+	position: relative;
+	bottom: 750px;
+	right: 160px;
+	height: 400px;
+}
+
+.infoarsalan {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-right: 870px;
+	bottom: 730px;
+	font-family: 'Courier New', monospace;
+	font-size: 25px;
+
+}
+
+.infomohid {
+	display: block;
+	position: relative;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	font-size: 25px;
+	bottom: 880px;
+}
+
+.infozion {
+	display: block;
+	position: relative;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	font-size: 25px;
+	margin-left: 870px;
+	bottom: 960px;
+}
